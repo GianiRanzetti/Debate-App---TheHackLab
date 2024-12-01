@@ -14,15 +14,26 @@ struct MainPageView: View {
 
     var body: some View {
             VStack {
-                Button {
-                    viewName.previous = viewName.name
-                    viewName.name = "ProfilePage"
-                } label: {
-                    Image(systemName: "square.and.pencil.circle")
-                        .font(.system(size: 45))
-                        .foregroundColor(.cyan)
+                HStack{
+                    Button {
+                        viewName.previous = viewName.name
+                        viewName.name = "NotesPage"
+                    } label: {
+                        Image(systemName: "square.and.pencil.circle")
+                            .font(.system(size: 45))
+                            .foregroundColor(.cyan)
+                    }
+                    
+                    Button {
+                        viewName.previous = viewName.name
+                        viewName.name = "ProfilePage"
+                    } label: {
+                        Image(systemName: "person.crop.circle")
+                            .font(.system(size: 45))
+                            .foregroundColor(.cyan)
+                    }
                 }
-                .position(x: 350, y: 40)
+                .position(x: 330, y: 40)
                 
                 Button {
                     viewName.previous = viewName.name
@@ -36,7 +47,7 @@ struct MainPageView: View {
                                         .padding(.vertical, -10))
                         .foregroundColor(.white)
                 }
-                .position(x: 200, y: 0)
+                .position(x: 200, y: 100)
                 
                 Button {
                     viewName.previous = viewName.name
@@ -50,7 +61,22 @@ struct MainPageView: View {
                                         .padding(.vertical, -10))
                         .foregroundColor(.white)
                 }
+                .position(x: 200, y: 0)
+                
+                Button {
+                    viewName.previous = viewName.name
+                    viewName.name = "Community"
+                } label: {
+                    Text("Post & Vote")
+                        .font(.system(size: 45))
+                        .background(RoundedRectangle(cornerSize: CGSize(width: 20, height: 20))
+                                        .foregroundColor(.cyan)
+                                        .padding(.horizontal, -20)
+                                        .padding(.vertical, -10))
+                        .foregroundColor(.white)
+                }
                 .position(x: 200, y: -100)
             }
+
     }
 }

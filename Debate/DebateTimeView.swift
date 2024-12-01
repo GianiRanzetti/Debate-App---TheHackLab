@@ -30,24 +30,43 @@ struct DebateTimeView: View {
                     .contentTransition(.numericText())
                     .animation(.linear, value: timerObject.remainingTime)
                 
+                
+                HStack {
+                    Button {
+                        timerObject.startTimer(viewName: viewName)
+                    } label: {
+                        Image(systemName: "play")
+                            .foregroundColor(.cyan)
+                            .font(.system(size: 50))
+                    }
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "microphone")
+                            .foregroundColor(.cyan)
+                            .font(.system(size: 50))
+                    }
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "hand.raised")
+                            .foregroundColor(.cyan)
+                            .font(.system(size: 50))
+                    }
+                }
+                
                 Button {
                     viewName.previous = viewName.name
-                    viewName.name = "ProfilePage"
+                    viewName.name = "NotesPage"
                 } label: {
                     Image(systemName: "square.and.pencil.circle")
                         .font(.system(size: 50))
                         .foregroundColor(.cyan)
                 }
-                .position(x: 100,y: 50)
+                .position(x: 50,y: 50)
             }
-        
-        Button {
-            timerObject.startTimer(viewName: viewName)
-        } label: {
-            Image(systemName: "play")
-                .foregroundColor(.cyan)
-                .font(.system(size: 50))
-        }
         
         VStack {
             HStack {

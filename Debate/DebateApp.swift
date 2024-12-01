@@ -8,8 +8,8 @@
 import SwiftUI
 import SwiftData
 
-let timerObjectForPrepTime = TimerObject(length: 3)
-let timerObjectForDebateTime = TimerObject(length: 2)
+let timerObjectForPrepTime = TimerObject(length: 600)
+let timerObjectForDebateTime = TimerObject(length: 300)
 
 @main
 struct DebateApp: App {
@@ -44,7 +44,16 @@ struct DebateApp: App {
                 DebateTimeView(viewName: viewName, timerObject: timerObjectForDebateTime)
             }
             if(viewName.name == "ChooseMatch") {
-                ChooseMatchView()
+                ChooseMatchView(viewName: viewName)
+            }
+            if(viewName.name == "NotesPage") {
+                NotesPageView(viewName: viewName)
+            }
+            if(viewName.name == "Community") {
+                CommunityView(viewName: viewName)
+            }
+            if(viewName.name == "Spectator") {
+                SpectatorView(viewName: viewName, timerObject: TimerObject(length: 169))
             }
         }
         .modelContainer(sharedModelContainer)
