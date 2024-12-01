@@ -8,60 +8,54 @@
 import SwiftUI
 import SwiftData
 
+let myInfo: [Info] = [
+    .init(name: "Username: HackingtheHAcklab001"),
+    .init(name: "email: email@example.com"),
+    .init(name: "Elo: 0000"),
+    .init(name: "Leaderboard Rank: 0000")
+]
+
 struct ProfilePageView: View {
     
     @Bindable var viewName: ViewName
     
-    @Environment(\.modelContext) private var context
-    
-    @Query private var notes: [Notes]
-    
-    @State private var path = [Notes]()
-    
     var body: some View {
-            NavigationStack (path: $path) {
+        ZStack{
+            VStack{
+                HStack {
+                    
+                    Text("My Profile")
+                        .font(.title)
+                        .offset(x: -5, y: 10)
+                }
                 List {
-                    ForEach(notes) { note in NavigationLink(value: note) {
-                        VStack(alignment: .leading) {
-                            Text(note.name)
-                                .font(.headline)
-                        }
-                    }
-                    }
-                    .onDelete {
-                        indexes in  for index in indexes {
-                            deleteNote(notes[index])
-                        }
+                    ForEach(myInfo) { info in
+                        Text(info.name)
                     }
                 }
-                .navigationDestination(for: Notes.self, destination: EditNoteView.init)
-                .toolbar {
-                    Button {
-                        viewName.name = viewName.previous
-                        viewName.previous = "ProfilePage"
-                    } label: {
-                        Image(systemName: "arrowshape.left.circle.fill")
-                            .foregroundColor(.cyan)
-                            .font(.system(size: 25))
-                    }
+                .padding()
+                Button {
                     
-                    Button("Add Note") {
-                        addNote()
-                    }
-                    .font(.system(size: 20))
-                    .bold()
-                    .foregroundColor(.cyan)
+                }label: {
+                    Text("Edit Profile").foregroundColor(.blue)
+                }
+                Button {
+                    
+                } label: {
+                    Text("Delete Account")
+                        .foregroundColor(.red)
                 }
             }
-    }
-    
-    func addNote() {
-        let note = Notes(name: "New Note")
-        context.insert(note)
-        path = [note]
-    }
-    
-    func deleteNote(_ note: Notes) {
-        context.delete(note)
+            Color.teal.opacity(0.1).ignoresSafeArea()
+            Button {
+                viewName.name = viewName.previous
+                viewName.previous = "ProfilePage"
+            } label: {
+                Image(systemName: "arrowshape.left.circle.fill")
+            }
+            .offset(x: -160, y: -360)
+            .font(.system(size: 35))
+            .foregroundColor(.cyan)
+        }
     }
 }

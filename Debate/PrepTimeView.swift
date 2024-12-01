@@ -36,7 +36,7 @@ struct PrepTimeView: View {
                     }
                 Button {
                     viewName.previous = viewName.name
-                    viewName.name = "ProfilePage"
+                    viewName.name = "NotesPage"
                 } label: {
                     Image(systemName: "square.and.pencil.circle")
                         .font(.system(size: 50))
@@ -44,7 +44,7 @@ struct PrepTimeView: View {
                 }
                 .position(x: 100,y: 50)
             }
-        
+        Text("Topic of the debate here:)")
         VStack {
             List {
                 ForEach(messages) { message in

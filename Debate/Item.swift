@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftData
+import SwiftUI
 
 @Model
 class Notes {
@@ -92,4 +93,66 @@ struct messageObject: Identifiable{
         self.name = name
         self.previous = previous
     }
+}
+
+class Topic: Identifiable {
+    let id = UUID()
+    let name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+}
+
+class Info : Identifiable {
+    let id = UUID()
+    let name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+}
+
+class commentObject: Identifiable{
+    let id = UUID()
+    let text: String
+    let date = Date()
+    var likes: Int = 0
+    var replies: [commentObject] = []
+    
+    init(text: String) {
+        self.text = text
+    }
+}
+
+class postObject: Identifiable{
+    let id = UUID()
+    let text: String
+    let date = Date()
+    var likes: Int = 0
+    var comments: [commentObject] = []
+    
+    init(text: String) {
+        self.text = text
+    }
+}
+
+enum Teams: String, CaseIterable, Identifiable {
+    case openingGovernment, openingOpposition, closingGovernment, closingOpposition
+    var id: Self { self }
+}
+
+enum Speakers: String, CaseIterable, Identifiable {
+    case openingGovernment1, openingGovernment2, openingOpposition1, openingOpposition2, closingGovernment1, closingGovernment2, closingOpposition1, closingOpposition2
+    var id: Self { self }
+}
+
+enum ScoreType: String, CaseIterable, Identifiable {
+    case first, second, third, fourth, fifth, sixth, seventh, eighth
+    var id: Self { self }
+}
+
+enum Score: String, CaseIterable, Identifiable {
+    case one, two, three, four, five
+    var id: Self { self }
 }
