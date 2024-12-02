@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D06EE92C2CFDB79A004CAC9E /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = D06EE92B2CFDB79A004CAC9E /* OpenAI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AB5766EF2CF5CB5D007026A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,16 +39,6 @@
 			path = Debate;
 			sourceTree = "<group>";
 		};
-		AB5766F12CF5CB5D007026A5 /* DebateTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DebateTests;
-			sourceTree = "<group>";
-		};
-		AB5766FB2CF5CB5D007026A5 /* DebateUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DebateUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06EE92C2CFDB79A004CAC9E /* OpenAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				AB5766DE2CF5CB5A007026A5 /* Debate */,
-				AB5766F12CF5CB5D007026A5 /* DebateTests */,
-				AB5766FB2CF5CB5D007026A5 /* DebateUITests */,
 				AB5766DD2CF5CB5A007026A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +105,7 @@
 			);
 			name = Debate;
 			packageProductDependencies = (
+				D06EE92B2CFDB79A004CAC9E /* OpenAI */,
 			);
 			productName = Debate;
 			productReference = AB5766DC2CF5CB5A007026A5 /* Debate.app */;
@@ -129,9 +123,6 @@
 			);
 			dependencies = (
 				AB5766F02CF5CB5D007026A5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AB5766F12CF5CB5D007026A5 /* DebateTests */,
 			);
 			name = DebateTests;
 			packageProductDependencies = (
@@ -152,9 +143,6 @@
 			);
 			dependencies = (
 				AB5766FA2CF5CB5D007026A5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AB5766FB2CF5CB5D007026A5 /* DebateUITests */,
 			);
 			name = DebateUITests;
 			packageProductDependencies = (
@@ -195,6 +183,9 @@
 			);
 			mainGroup = AB5766D32CF5CB5A007026A5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D06EE92A2CFDB79A004CAC9E /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AB5766DD2CF5CB5A007026A5 /* Products */;
 			projectDirPath = "";
@@ -396,6 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Debate/Preview Content\"";
+				DEVELOPMENT_TEAM = R3DZHP284Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Debate/Preview Content\"";
+				DEVELOPMENT_TEAM = R3DZHP284Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -552,6 +545,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D06EE92A2CFDB79A004CAC9E /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D06EE92B2CFDB79A004CAC9E /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D06EE92A2CFDB79A004CAC9E /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB5766D42CF5CB5A007026A5 /* Project object */;
 }
