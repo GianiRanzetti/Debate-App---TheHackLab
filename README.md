@@ -66,7 +66,7 @@ For questions, feedback, or collaboration:
 - **Authors**:
 - Chase Damla Ünal -
 - Türkü Aleyna Arar - 
-- Justin Tang - 
+- Justin Tang - tangjust@outlook.com
 - Renzo Gonzales -
 - Giani Ranzetti - gianiranzetti1@gmail.com
 
