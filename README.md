@@ -133,9 +133,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions, feedback, or collaboration:
 - **Authors**:
 - Damla Chase Ünal -
-- Türkü Aleyna Arar - 
+- Türkü Aleyna Arar - turku.a35@gmail.com
 - Justin Tang - tangjust@outlook.com
-- Renzo Gonzales -
+- Renzo Gonzales - renzogonzalesdelgado18@gmail.com
 - Giani Ranzetti - gianiranzetti1@gmail.com
 
 
