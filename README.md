@@ -1,7 +1,8 @@
 # It's DebateTime! A Debate App - TheHackLab Bocconi
 
 Welcome to our Debate App Project, created for TheHackLab Bocconi. This application is designed to facilitate debates for amateurs and foster a community of debating enthusiasts.
-![debatetime-high-resolution-logo-transparent](https://github.com/user-attachments/assets/9a1756c0-2ff6-4e79-9c0b-69849cda6b3a)
+
+<img src="https://github.com/user-attachments/assets/9a1756c0-2ff6-4e79-9c0b-69849cda6b3a" alt="DebateTime Logo" width="400" style="max-width:100%; height:auto;">
 
 ## Overview
 
