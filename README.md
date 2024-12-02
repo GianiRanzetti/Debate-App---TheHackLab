@@ -1,4 +1,5 @@
-# It's DebateTime! A Debate App - TheHackLab Bocconi
+# It's DebateTime! The Debate App for Everyone: Interactive Debates, Feedback, and Community  
+
 
 Welcome to our Debate App Project, created for TheHackLab Bocconi. This application is designed to facilitate debates for amateurs and foster a community of debating enthusiasts.
 
