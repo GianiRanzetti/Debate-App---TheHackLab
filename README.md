@@ -1,12 +1,12 @@
 # It's DebateTime! The Debate App for Everyone: Interactive Debates, Feedback, and Community  
 
 
-Welcome to our Debate App Project, created for TheHackLab Bocconi. This application is designed to facilitate debates for amateurs and foster a community of debating enthusiasts.
+Welcome to our DebateTime Project, created for TheHackLab at Bocconi University. This application is designed to facilitate debates for amateurs and foster a community of debating enthusiasts.
 <img src="https://github.com/user-attachments/assets/5b8f084d-6f70-4855-9509-2394418b9a13" alt="DebateTime Promo" width="700" style="max-width:100%; height:auto;">
 
 ## Overview
 
-**DebateTime** is a project aimed at hosting engaging and organized debates under the parlimentary procedure (more formats to come in the future). It hosts a platform for debate matchmaking with friends or strangers and aims to encourage community-building and collaboration. The app was submitted to the first ever Bocconi TheHackLab competition and presented to the 'Bocconi 4 Innovation' startup accelerator.
+**DebateTime** is the **Debate App for Everyone, focused on Interactive Debates, Feedback, and Community**. We created this project aimed at hosting engaging and organized debates under the parlimentary procedure (more formats to come in the future). It hosts a platform for debate matchmaking with friends or strangers and aims to encourage community-building and collaboration. The app was submitted to the first ever Bocconi TheHackLab competition and presented to the 'Bocconi 4 Innovation' startup accelerator.
 
 ## Features
 
