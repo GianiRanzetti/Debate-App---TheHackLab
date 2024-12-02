@@ -46,52 +46,79 @@ cd Debate-App---TheHackLab
 
 ## Usage
 
-### User profile
-1. Click the "Profile" button.
-<img src="Assets/ProfileClick.png" alt="Home Page" width="250">
+### User Profile
 
-2. Access your Profile Info
-<img src="Assets/ProfilePage.png" alt="Profile Page" width="250">
+1. **Access Profile**: Click the **Profile** button on the home page.
+   
+   <img src="Assets/ProfileClick.png" alt="Home Page" width="250">
 
-### Joining a Game:
-1. Click the "Join a Game" Button on the home screen. The topics cannot be chosen by participants to avoid giving unfair advantages to the creator of the lobby.
-<img src="Assets/DebateClick.png" alt="Home Page" width="250">
+2. **View Profile Information**: Navigate to the Profile page to view your details.
+   
+   <img src="Assets/ProfilePage.png" alt="Profile Page" width="250">
 
-2. Instantly, the 10 minutes of preparation time begins. The chat is private between team members in this window.
-<img src="Assets/DebatePreptime.png" alt="Prep Time" width="250">
+---
 
-2. When the prep time finishes, each speaker will have 5 minutes to lay out their arguments. The speaker who has the floor is highlighted in blue, all other speakers are muted.
-<img src="Assets/DebateView.png" alt="Debate Time" width="250">
+### Joining a Debate
 
-### Using the Personal notes feature:
-1. Click on the 'Notes' button in the home page
-<img src="Assets/NotesClick.png" alt="Home Page" width="250">
+1. **Join a Game**: Click the **Join a Game** button on the home screen. Topics are randomized to ensure fairness.
+   
+   <img src="Assets/DebateClick.png" alt="Home Page" width="250">
 
-2. Each user has access to their own private and personal notes. Files are locally saved so they don't get deleted when the app is closed.
-<img src="Assets/Notes.png" alt="Notes Section" width="250">
+2. **Preparation Phase**: A 10-minute preparation timer begins. During this time, chat is private between team members.
+   
+   <img src="Assets/DebatePreptime.png" alt="Prep Time" width="250">
 
-3. At any point during a debate, these pre-prepared files can be accessed by re-clicking the 'Notes' button
-<img src="Assets/NotesinDebateClick.png" alt="Prep Time" width="250">
+3. **Debate Phase**: Each speaker has 5 minutes to present their arguments. The active speaker is highlighted in blue, while others are muted.
+   
+   <img src="Assets/DebateView.png" alt="Debate Time" width="250">
 
-### Joining a game as a member of the jury:
-1. Click the 'Spectate & Judge' button on the Home screen
-<img src="Assets/JuryClick.png" alt="Home Page" width="250">
+---
 
-2. Select which topic you want to spectate
-<img src="Assets/SpectateTopic.png" alt="Topics Pagee" width="250">
+### Using the Personal Notes Feature
 
-3. Discuss with other member's of the jury in a private chat in real time
-<img src="Assets/ChatPost.png" alt="Jury Chat" width="250">
+1. **Access Notes**: Click the **Notes** button on the home page.
+   
+   <img src="Assets/NotesClick.png" alt="Home Page" width="250">
 
-4. Vote on you winning team and on the best speaker. Rate each speaker individually on their performance.
-<img src="Assets/Voting.png" alt="Voting Page" width="250">
+2. **Manage Notes**: Use the personal notes section to create and save private notes locally.
+   
+   <img src="Assets/Notes.png" alt="Notes Section" width="250">
 
-### Receiving AI feedback:
-1. When the debate ends, The feedback pop-up appears. Click on 'Get Feedback from AI' button.
-<img src="Assets/FeedbackClick.png" alt="Feedback Screen" width="250">
+3. **Retrieve Notes During Debate**: Access your pre-prepared notes anytime during a debate by clicking the **Notes** button.
+   
+   <img src="Assets/NotesinDebateClick.png" alt="Prep Time" width="250">
 
-2. The ChatGPT API will be queried, it will summarize your arguments throughout the debates and evaluate them. The average score given by members jury is also displayed in this section.
-<img src="Assets/FeedbackScreenAI.png" alt="Feedback Screen with AI generated response" width="250">
+---
+
+### Joining as a Jury Member
+
+1. **Spectate and Judge**: Click the **Spectate & Judge** button on the home screen.
+   
+   <img src="Assets/JuryClick.png" alt="Home Page" width="250">
+
+2. **Select a Topic**: Choose a debate topic to spectate and evaluate.
+   
+   <img src="Assets/SpectateTopic.png" alt="Topics Page" width="250">
+
+3. **Engage in Jury Chat**: Discuss in real-time with other jury members using the private chat.
+   
+   <img src="Assets/ChatPost.png" alt="Jury Chat" width="250">
+
+4. **Vote and Rate**: Cast your vote for the winning team and best speaker, and rate each participant's performance.
+   
+   <img src="Assets/Voting.png" alt="Voting Page" width="250">
+
+---
+
+### Receiving AI Feedback
+
+1. **Get Feedback**: After the debate, click the **Get Feedback from AI** button in the feedback pop-up.
+   
+   <img src="Assets/FeedbackClick.png" alt="Feedback Screen" width="250">
+
+2. **View AI Summary**: The ChatGPT API provides a summary of arguments and evaluates performance. Jury scores are also displayed.
+   
+   <img src="Assets/FeedbackScreenAI.png" alt="Feedback Screen with AI generated response" width="250">
 
 
 
