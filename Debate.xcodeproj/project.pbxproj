@@ -39,16 +39,6 @@
 			path = Debate;
 			sourceTree = "<group>";
 		};
-		AB5766F12CF5CB5D007026A5 /* DebateTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DebateTests;
-			sourceTree = "<group>";
-		};
-		AB5766FB2CF5CB5D007026A5 /* DebateUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DebateUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				AB5766DE2CF5CB5A007026A5 /* Debate */,
-				AB5766F12CF5CB5D007026A5 /* DebateTests */,
-				AB5766FB2CF5CB5D007026A5 /* DebateUITests */,
 				AB5766DD2CF5CB5A007026A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,9 +124,6 @@
 			dependencies = (
 				AB5766F02CF5CB5D007026A5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				AB5766F12CF5CB5D007026A5 /* DebateTests */,
-			);
 			name = DebateTests;
 			packageProductDependencies = (
 			);
@@ -158,9 +143,6 @@
 			);
 			dependencies = (
 				AB5766FA2CF5CB5D007026A5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AB5766FB2CF5CB5D007026A5 /* DebateUITests */,
 			);
 			name = DebateUITests;
 			packageProductDependencies = (
