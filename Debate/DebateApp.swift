@@ -55,6 +55,9 @@ struct DebateApp: App {
             if(viewName.name == "Spectator") {
                 SpectatorView(viewName: viewName, timerObject: TimerObject(length: 169))
             }
+            if(viewName.name == "Feedback"){
+                FeedbackView(viewName: Binding.constant(viewName))
+            }
         }
         .modelContainer(sharedModelContainer)
     }

@@ -23,11 +23,11 @@ struct ChooseMatchView: View {
             viewName.name = viewName.previous
             viewName.previous = "ChooseMatch"
         } label: {
-            Image(systemName: "arrowshape.right.circle.fill")
+            Image(systemName: "arrowshape.left.circle.fill")
                 .foregroundColor(.cyan)
                 .font(.system(size: 30))
         }
-        .offset(x: 165, y: -10)
+        .offset(x: -160)
             List {
                 ForEach(topics) { topic in
                     Button (topic.name) {
@@ -39,3 +39,4 @@ struct ChooseMatchView: View {
         }
     }
 }
+

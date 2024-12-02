@@ -42,7 +42,16 @@ struct PrepTimeView: View {
                         .font(.system(size: 50))
                         .foregroundColor(.cyan)
                 }
-                .position(x: 100,y: 50)
+                .position(x:170, y: 50)
+                Button {
+                    viewName.previous = viewName.name
+                    viewName.name = "DebateTime"
+                } label: {
+                    Image(systemName: "arrowshape.right.circle.fill")
+                        .foregroundColor(.cyan)
+                        .font(.system(size: 50))
+                }
+                .position(x:90, y: 50)
             }
         Text("Topic of the debate here:)")
         VStack {
