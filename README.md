@@ -132,7 +132,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions, feedback, or collaboration:
 - **Authors**:
-- Chase Damla Ünal -
+- Damla Chase Ünal -
 - Türkü Aleyna Arar - 
 - Justin Tang - tangjust@outlook.com
 - Renzo Gonzales -
