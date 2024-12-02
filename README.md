@@ -46,6 +46,15 @@ cd Debate-App---TheHackLab
 
 ## Usage
 
+### Joining a Game:
+
+### Using the Personal notes feature:
+
+### Public chat:
+
+### Joining a game as a member of the jury:
+
+### Receiving AI feedback:
 
 ## License
 
@@ -60,7 +69,6 @@ For questions, feedback, or collaboration:
 - Justin Tang - 
 - Renzo Gonzales -
 - Giani Ranzetti - gianiranzetti1@gmail.com
-- [GitHub Repository](https://github.com/GianiRanzetti/Debate-App---TheHackLab)
 
 
 
